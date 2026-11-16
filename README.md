@@ -4,7 +4,18 @@ A memory system for Claude Code + Obsidian. Claude remembers who you are, your p
 your projects, and how you like to work, from one session to the next. Everything is plain
 markdown files you can browse in Obsidian.
 
-## Setup (5 minutes)
+## Set it up with your AI (easiest)
+
+Open Terminal, start Claude Code from your home folder (`cd ~ && claude`), and paste this:
+
+```
+Set up the Claude Memory Kit for me from https://github.com/momentumcash/claude-memory-kit
+Clone it to ~/claude-memory-kit, then read ~/claude-memory-kit/SETUP.md and follow it.
+```
+
+Claude downloads the kit from this page, asks you a few questions, and builds everything.
+
+## Or set it up step by step (5 minutes)
 
 1. Open Terminal and download the kit:
    ```
